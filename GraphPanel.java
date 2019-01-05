@@ -17,7 +17,7 @@ public class GraphPanel extends JPanel {
 
         width = w;
         height = h;
-        System.out.printf("%d  %d ", width, height);
+//         System.out.printf("%d  %d ", width, height);
         setSize(w, h);
 
         this.velocity = velocity;
@@ -34,6 +34,8 @@ public class GraphPanel extends JPanel {
 
     @Override
     protected void paintComponent(Graphics g) {
+        g.setColor(Color.white);
+        g.fillRect(0,0,width,height);
         g.setColor(Color.BLACK);
         CalcDistance cal = new CalcDistance();
         g.drawLine(x1, y2, x2, y2);

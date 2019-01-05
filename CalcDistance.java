@@ -28,14 +28,14 @@ public class CalcDistance {
 
 
     /**
-     * Getter i variables statice time
+     * Getter i variables statike time
      */
     public int getTimeVariable() {
 
         return this.time;
     }
     /**
-     * Zvoglon grafin sipas nevojes
+     * Merr   differencen se vleres maksimale me vleren me te larte qe fitohet nga formula
      *
      * @param x            -- vlera Maksimale e  xAxis
      * @param velocity     - shpejtsia
@@ -47,15 +47,4 @@ public class CalcDistance {
             difference = (int) ((velocity * maxTime + ((1 / 2.0) * acceleration * Math.pow(maxTime, 2))));
             return difference;
     }
-
-
-    /**
-     * Zmadhon grafin sipas nevojes
-     *
-     * @param x            -- vlera Maksimale e  xAxis
-     * @param velocity     - shpejtsia
-     * @param acceleration - nxitimi
-     * @return
-     */
-
 }
