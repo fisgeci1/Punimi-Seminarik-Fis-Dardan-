@@ -1,1 +1,1 @@
-# Punimi-Seminarik-Fis-Dardan-
+# Punimi seminarik 
